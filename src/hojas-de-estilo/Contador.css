@@ -1,0 +1,27 @@
+.contador {
+    min-width: 300px;
+    font-size: 160px;
+    padding: 25px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid white;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px black;
+    text-align: center;
+}
+
+
+.flash {
+    animation: flash-animation 0.3s;
+}
+
+@keyframes flash-animation {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
